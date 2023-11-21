@@ -17,21 +17,39 @@ color: #ffffff;
    text-align: center;
    font-family: Arial, Helvetica, sans-serif;
 }
-            a:link {
-  color: #FFFFFF;
-  background-color: transparent;
-  text-decoration: none;
-   font-family: Arial, Helvetica, sans-serif;
-            }
-a:visited {
-  color: #FFFFFF;
-  background-color: transparent;
-  text-decoration: none;
-   font-family: Arial, Helvetica, sans-serif;
-}
-a:hover {
-  color: #FFFFFF;
-  background-color: transparent;
-  text-decoration: underline;
-   font-family: Arial, Helvetica, sans-serif;
-}
+ /* unvisited link */
+a:link {
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    font-size: 40px;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+    background-color: #8B0000;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+  }
