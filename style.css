@@ -20,7 +20,7 @@ color: #ffffff;
  /* unvisited link */
 a:link {
     color: white;
-    background-color: red;
+    background-color: blue;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
@@ -30,7 +30,7 @@ a:link {
   /* visited link */
   a:visited {
     color: white;
-    background-color: red;
+    background-color: blue;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
@@ -39,7 +39,7 @@ a:link {
   /* mouse over link */
   a:hover {
     color: white;
-    background-color: #8B0000;
+    background-color: #00008B;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
@@ -48,7 +48,7 @@ a:link {
   /* selected link */
   a:active {
     color: white;
-    background-color: red;
+    background-color: blue;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
