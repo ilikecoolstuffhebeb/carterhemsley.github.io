@@ -1,0 +1,17 @@
+{
+  "name": "Carter's GameVerse",
+  "short_name": "CGV",
+  "description": "This is an app so you can play games without being detected by GoGuardian",
+  "scope": "/carterhemsley.githbub.io/",
+  "start_url": "/carterhemsley.githbub.io/",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "display": "standalone", 
+  "icons": [
+      {
+        "src": "/carterhemsley.githbub.io/favicon.png",
+        "type": "image/png",
+        "sizes": "700x700"
+      }
+  ]
+}
