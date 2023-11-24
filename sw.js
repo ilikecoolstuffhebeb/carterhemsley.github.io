@@ -1,5 +1,5 @@
 var GHPATH = '/carterhemsley.githbu.io';
-var APP_PREFIX = 'gppwa_';
+var APP_PREFIX = 'cgp';
 var VERSION = 'version_002';
 var URLS = [    
   `${GHPATH}/`,
