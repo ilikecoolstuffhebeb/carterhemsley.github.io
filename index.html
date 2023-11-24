@@ -2,13 +2,14 @@
 <html>
     <head>
     <meta charset="UTF-8">
-    <meta name="description" content="My goofy things.">
-    <meta name="author" content="Tyler Palko">
+    <meta name="description" content="My stuff.">
+    <meta name="author" content="Carter Hemsley">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carter's Game Hub</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="style.css" />
-
+  <link rel="canonical" href="https://codepo8.github.io/github-page-pwa/" />
+  <link rel="manifest" href="/github-page-pwa/manifest.webmanifest">
     </head>
     <body>
         <div>
@@ -23,5 +24,13 @@
             <a href="https://stinkycheesesmp.com">Education and STuff 4.1</a>
         </div>
         </footer>
+          <script>
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.register (
+          '/carterhemsley.github.io/sw.js',
+          {scope: '/carterhemsley.github.io/'}
+        )
+      }
+  </script>
     </body>
 </html>
