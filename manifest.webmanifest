@@ -9,7 +9,7 @@
   "display": "standalone", 
   "icons": [
       {
-        "src": "/carterhemsley.github.io/favicon.png",
+        "src": "/favicon.png",
         "type": "image/png",
         "sizes": "700x700"
       }
